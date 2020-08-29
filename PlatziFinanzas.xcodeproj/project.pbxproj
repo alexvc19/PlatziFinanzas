@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A83CA5924D4C7F70077ABCD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83CA5824D4C7F70077ABCD /* Colors.xcassets */; };
 		4ACC96B724D391C600BDFE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B624D391C600BDFE76 /* AppDelegate.swift */; };
 		4ACC96B924D391C600BDFE76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */; };
 		4ACC96BB24D391C600BDFE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96BA24D391C600BDFE76 /* ViewController.swift */; };
 		4ACC96BE24D391C600BDFE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96BC24D391C600BDFE76 /* Main.storyboard */; };
 		4ACC96C024D391C800BDFE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96BF24D391C800BDFE76 /* Assets.xcassets */; };
 		4ACC96C324D391C800BDFE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96C124D391C800BDFE76 /* LaunchScreen.storyboard */; };
+		4ACC96CC24D393B000BDFE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96BA24D391C600BDFE76 /* ViewController.swift */; };
+		4ACC96CD24D393B000BDFE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B624D391C600BDFE76 /* AppDelegate.swift */; };
+		4ACC96CE24D393B000BDFE76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */; };
+		4ACC96D124D393B000BDFE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96C124D391C800BDFE76 /* LaunchScreen.storyboard */; };
+		4ACC96D224D393B000BDFE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96BF24D391C800BDFE76 /* Assets.xcassets */; };
+		4ACC96D324D393B000BDFE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96BC24D391C600BDFE76 /* Main.storyboard */; };
+		4ACC96DC24D3941000BDFE76 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACC96DB24D3941000BDFE76 /* MapKit.framework */; };
+		4ACC96E924D3998300BDFE76 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96E824D3998300BDFE76 /* View.xib */; };
+		4ACC96EB24D39CD300BDFE76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96EA24D39CD300BDFE76 /* Default-568h@2x.png */; };
+		4ACC96ED24D3C90800BDFE76 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */; };
+		4ACC96F024D3CA2000BDFE76 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96EF24D3CA2000BDFE76 /* Add.storyboard */; };
+		4ACC96F424D3CBB300BDFE76 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96F324D3CBB300BDFE76 /* Statistics.storyboard */; };
+		4ACC96F724D3CBE800BDFE76 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96F524D3CBE700BDFE76 /* Profile.storyboard */; };
+		4ACC96F924D3CC5D00BDFE76 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */; };
+		4ACC96FB24D3CD6700BDFE76 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */; };
+		4AF5F31C24EB91FF00C16523 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5F31B24EB91FF00C16523 /* Shadow.swift */; };
+		4AF5F33224EBA35300C16523 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F31F24EBA35300C16523 /* Metropolis-Bold.otf */; };
+		4AF5F33324EBA35300C16523 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32024EBA35300C16523 /* SIL Open Font License.txt */; };
+		4AF5F33424EBA35300C16523 /* Metropolis-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32124EBA35300C16523 /* Metropolis-Thin.otf */; };
+		4AF5F33524EBA35300C16523 /* Metropolis-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32224EBA35300C16523 /* Metropolis-RegularItalic.otf */; };
+		4AF5F33624EBA35300C16523 /* Metropolis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32324EBA35300C16523 /* Metropolis-ExtraBold.otf */; };
+		4AF5F33724EBA35300C16523 /* Metropolis-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32424EBA35300C16523 /* Metropolis-SemiBoldItalic.otf */; };
+		4AF5F33824EBA35300C16523 /* Metropolis-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32524EBA35300C16523 /* Metropolis-Light.otf */; };
+		4AF5F33924EBA35300C16523 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32624EBA35300C16523 /* Metropolis-Regular.otf */; };
+		4AF5F33A24EBA35300C16523 /* Metropolis-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32724EBA35300C16523 /* Metropolis-Black.otf */; };
+		4AF5F33B24EBA35300C16523 /* Metropolis-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32824EBA35300C16523 /* Metropolis-ExtraLightItalic.otf */; };
+		4AF5F33C24EBA35300C16523 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32924EBA35300C16523 /* Metropolis-Medium.otf */; };
+		4AF5F33D24EBA35300C16523 /* Metropolis-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32A24EBA35300C16523 /* Metropolis-BlackItalic.otf */; };
+		4AF5F33E24EBA35300C16523 /* Metropolis-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32B24EBA35300C16523 /* Metropolis-ThinItalic.otf */; };
+		4AF5F33F24EBA35300C16523 /* Metropolis-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32C24EBA35300C16523 /* Metropolis-ExtraLight.otf */; };
+		4AF5F34024EBA35300C16523 /* Metropolis-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32D24EBA35300C16523 /* Metropolis-MediumItalic.otf */; };
+		4AF5F34124EBA35300C16523 /* Metropolis-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32E24EBA35300C16523 /* Metropolis-LightItalic.otf */; };
+		4AF5F34224EBA35300C16523 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32F24EBA35300C16523 /* Metropolis-SemiBold.otf */; };
+		4AF5F34324EBA35300C16523 /* Metropolis-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F33024EBA35300C16523 /* Metropolis-BoldItalic.otf */; };
+		4AF5F34424EBA35300C16523 /* Metropolis-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F33124EBA35300C16523 /* Metropolis-ExtraBoldItalic.otf */; };
+		4AF5F34624EBBDE800C16523 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F34524EBBDE800C16523 /* OnBoarding.storyboard */; };
+		4AF5F34824EBC17D00C16523 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5F34724EBC17D00C16523 /* OnBoardingContainerViewController.swift */; };
+		4AF5F34A24EBC29300C16523 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5F34924EBC29300C16523 /* OnBoardingViewController.swift */; };
+		4AF5F34C24EBC7EC00C16523 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5F34B24EBC7EC00C16523 /* OnBoardingStepsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A83CA5824D4C7F70077ABCD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4ACC96B324D391C600BDFE76 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC96B624D391C600BDFE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,42 @@
 		4ACC96BF24D391C800BDFE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ACC96C224D391C800BDFE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ACC96C424D391C800BDFE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACC96D724D393B000BDFE76 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACC96D824D393B000BDFE76 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/alejandrovelasco/SwiftProjects/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
+		4ACC96D924D3940900BDFE76 /* Production.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Production.entitlements; sourceTree = "<group>"; };
+		4ACC96DB24D3941000BDFE76 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4ACC96E824D3998300BDFE76 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		4ACC96EA24D39CD300BDFE76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		4ACC96EF24D3CA2000BDFE76 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		4ACC96F324D3CBB300BDFE76 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		4ACC96F624D3CBE800BDFE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		4AF5F31B24EB91FF00C16523 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		4AF5F31F24EBA35300C16523 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		4AF5F32024EBA35300C16523 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		4AF5F32124EBA35300C16523 /* Metropolis-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Thin.otf"; sourceTree = "<group>"; };
+		4AF5F32224EBA35300C16523 /* Metropolis-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32324EBA35300C16523 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		4AF5F32424EBA35300C16523 /* Metropolis-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32524EBA35300C16523 /* Metropolis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.otf"; sourceTree = "<group>"; };
+		4AF5F32624EBA35300C16523 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		4AF5F32724EBA35300C16523 /* Metropolis-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.otf"; sourceTree = "<group>"; };
+		4AF5F32824EBA35300C16523 /* Metropolis-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32924EBA35300C16523 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		4AF5F32A24EBA35300C16523 /* Metropolis-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BlackItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32B24EBA35300C16523 /* Metropolis-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ThinItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32C24EBA35300C16523 /* Metropolis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLight.otf"; sourceTree = "<group>"; };
+		4AF5F32D24EBA35300C16523 /* Metropolis-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-MediumItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32E24EBA35300C16523 /* Metropolis-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-LightItalic.otf"; sourceTree = "<group>"; };
+		4AF5F32F24EBA35300C16523 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		4AF5F33024EBA35300C16523 /* Metropolis-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BoldItalic.otf"; sourceTree = "<group>"; };
+		4AF5F33124EBA35300C16523 /* Metropolis-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		4AF5F34524EBBDE800C16523 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		4AF5F34724EBC17D00C16523 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		4AF5F34924EBC29300C16523 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		4AF5F34B24EBC7EC00C16523 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,14 +111,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4ACC96CF24D393B000BDFE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACC96DC24D3941000BDFE76 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A83CA5724D4C7BD0077ABCD /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				4A83CA5824D4C7F70077ABCD /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		4ACC96AA24D391C600BDFE76 = {
 			isa = PBXGroup;
 			children = (
+				4ACC96D924D3940900BDFE76 /* Production.entitlements */,
 				4ACC96B524D391C600BDFE76 /* PlatziFinanzas */,
 				4ACC96B424D391C600BDFE76 /* Products */,
+				4ACC96DA24D3941000BDFE76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96B324D391C600BDFE76 /* PlatziFinanzas.app */,
+				4ACC96D724D393B000BDFE76 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +152,193 @@
 		4ACC96B524D391C600BDFE76 /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
+				4AF5F31A24EB91BB00C16523 /* Extensions */,
+				4ACC96D824D393B000BDFE76 /* Production.plist */,
+				4ACC96C424D391C800BDFE76 /* Info.plist */,
+				4ACC96DF24D3953B00BDFE76 /* Resources */,
+				4ACC96DE24D394C800BDFE76 /* Base */,
+				4ACC96DD24D394A700BDFE76 /* Application */,
+			);
+			path = PlatziFinanzas;
+			sourceTree = "<group>";
+		};
+		4ACC96DA24D3941000BDFE76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96DB24D3941000BDFE76 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ACC96DD24D394A700BDFE76 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96E224D3957600BDFE76 /* Main */,
+				4ACC96E124D3956400BDFE76 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4ACC96DE24D394C800BDFE76 /* Base */ = {
+			isa = PBXGroup;
+			children = (
 				4ACC96B624D391C600BDFE76 /* AppDelegate.swift */,
+				4ACC96C124D391C800BDFE76 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4ACC96DF24D3953B00BDFE76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5F31D24EBA31500C16523 /* Fonts */,
+				4A83CA5724D4C7BD0077ABCD /* Colors */,
+				4ACC96E024D3954A00BDFE76 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4ACC96E024D3954A00BDFE76 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96BF24D391C800BDFE76 /* Assets.xcassets */,
+				4ACC96EA24D39CD300BDFE76 /* Default-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4ACC96E124D3956400BDFE76 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96E424D3959000BDFE76 /* Sign In */,
+				4ACC96E324D3957F00BDFE76 /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		4ACC96E224D3957600BDFE76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96E724D395F600BDFE76 /* Main */,
+				4ACC96F224D3CB4E00BDFE76 /* Statistics */,
+				4ACC96F124D3CB2400BDFE76 /* Budget */,
+				4ACC96EE24D3C9F900BDFE76 /* Add */,
+				4ACC96E624D395D900BDFE76 /* Profile */,
+				4ACC96E524D395C800BDFE76 /* Transactions */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4ACC96E324D3957F00BDFE76 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5F34524EBBDE800C16523 /* OnBoarding.storyboard */,
+				4AF5F34724EBC17D00C16523 /* OnBoardingContainerViewController.swift */,
+				4AF5F34924EBC29300C16523 /* OnBoardingViewController.swift */,
+				4AF5F34B24EBC7EC00C16523 /* OnBoardingStepsViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		4ACC96E424D3959000BDFE76 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		4ACC96E524D395C800BDFE76 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		4ACC96E624D395D900BDFE76 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96F524D3CBE700BDFE76 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4ACC96E724D395F600BDFE76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */,
 				4ACC96BA24D391C600BDFE76 /* ViewController.swift */,
 				4ACC96BC24D391C600BDFE76 /* Main.storyboard */,
-				4ACC96BF24D391C800BDFE76 /* Assets.xcassets */,
-				4ACC96C124D391C800BDFE76 /* LaunchScreen.storyboard */,
-				4ACC96C424D391C800BDFE76 /* Info.plist */,
+				4ACC96E824D3998300BDFE76 /* View.xib */,
 			);
-			path = PlatziFinanzas;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4ACC96EE24D3C9F900BDFE76 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96EF24D3CA2000BDFE76 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		4ACC96F124D3CB2400BDFE76 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		4ACC96F224D3CB4E00BDFE76 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				4ACC96F324D3CBB300BDFE76 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		4AF5F31A24EB91BB00C16523 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5F31B24EB91FF00C16523 /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4AF5F31D24EBA31500C16523 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5F31E24EBA35300C16523 /* Metropolis */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4AF5F31E24EBA35300C16523 /* Metropolis */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5F31F24EBA35300C16523 /* Metropolis-Bold.otf */,
+				4AF5F32024EBA35300C16523 /* SIL Open Font License.txt */,
+				4AF5F32124EBA35300C16523 /* Metropolis-Thin.otf */,
+				4AF5F32224EBA35300C16523 /* Metropolis-RegularItalic.otf */,
+				4AF5F32324EBA35300C16523 /* Metropolis-ExtraBold.otf */,
+				4AF5F32424EBA35300C16523 /* Metropolis-SemiBoldItalic.otf */,
+				4AF5F32524EBA35300C16523 /* Metropolis-Light.otf */,
+				4AF5F32624EBA35300C16523 /* Metropolis-Regular.otf */,
+				4AF5F32724EBA35300C16523 /* Metropolis-Black.otf */,
+				4AF5F32824EBA35300C16523 /* Metropolis-ExtraLightItalic.otf */,
+				4AF5F32924EBA35300C16523 /* Metropolis-Medium.otf */,
+				4AF5F32A24EBA35300C16523 /* Metropolis-BlackItalic.otf */,
+				4AF5F32B24EBA35300C16523 /* Metropolis-ThinItalic.otf */,
+				4AF5F32C24EBA35300C16523 /* Metropolis-ExtraLight.otf */,
+				4AF5F32D24EBA35300C16523 /* Metropolis-MediumItalic.otf */,
+				4AF5F32E24EBA35300C16523 /* Metropolis-LightItalic.otf */,
+				4AF5F32F24EBA35300C16523 /* Metropolis-SemiBold.otf */,
+				4AF5F33024EBA35300C16523 /* Metropolis-BoldItalic.otf */,
+				4AF5F33124EBA35300C16523 /* Metropolis-ExtraBoldItalic.otf */,
+			);
+			path = Metropolis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +359,23 @@
 			name = PlatziFinanzas;
 			productName = PlatziFinanzas;
 			productReference = 4ACC96B324D391C600BDFE76 /* PlatziFinanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ACC96CA24D393B000BDFE76 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACC96D424D393B000BDFE76 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				4ACC96CB24D393B000BDFE76 /* Sources */,
+				4ACC96CF24D393B000BDFE76 /* Frameworks */,
+				4ACC96D024D393B000BDFE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = PlatziFinanzas;
+			productReference = 4ACC96D724D393B000BDFE76 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +407,7 @@
 			projectRoot = "";
 			targets = (
 				4ACC96B224D391C600BDFE76 /* PlatziFinanzas */,
+				4ACC96CA24D393B000BDFE76 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +417,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF5F33C24EBA35300C16523 /* Metropolis-Medium.otf in Resources */,
+				4AF5F34424EBA35300C16523 /* Metropolis-ExtraBoldItalic.otf in Resources */,
+				4AF5F33F24EBA35300C16523 /* Metropolis-ExtraLight.otf in Resources */,
+				4AF5F33824EBA35300C16523 /* Metropolis-Light.otf in Resources */,
+				4ACC96E924D3998300BDFE76 /* View.xib in Resources */,
 				4ACC96C324D391C800BDFE76 /* LaunchScreen.storyboard in Resources */,
+				4AF5F33224EBA35300C16523 /* Metropolis-Bold.otf in Resources */,
+				4AF5F33924EBA35300C16523 /* Metropolis-Regular.otf in Resources */,
+				4AF5F34124EBA35300C16523 /* Metropolis-LightItalic.otf in Resources */,
+				4AF5F33B24EBA35300C16523 /* Metropolis-ExtraLightItalic.otf in Resources */,
+				4A83CA5924D4C7F70077ABCD /* Colors.xcassets in Resources */,
+				4ACC96F924D3CC5D00BDFE76 /* Budget.storyboard in Resources */,
+				4ACC96F724D3CBE800BDFE76 /* Profile.storyboard in Resources */,
+				4AF5F33324EBA35300C16523 /* SIL Open Font License.txt in Resources */,
 				4ACC96C024D391C800BDFE76 /* Assets.xcassets in Resources */,
+				4AF5F33E24EBA35300C16523 /* Metropolis-ThinItalic.otf in Resources */,
+				4AF5F33D24EBA35300C16523 /* Metropolis-BlackItalic.otf in Resources */,
+				4AF5F34224EBA35300C16523 /* Metropolis-SemiBold.otf in Resources */,
+				4ACC96F024D3CA2000BDFE76 /* Add.storyboard in Resources */,
+				4ACC96FB24D3CD6700BDFE76 /* SignIn.storyboard in Resources */,
+				4AF5F34324EBA35300C16523 /* Metropolis-BoldItalic.otf in Resources */,
 				4ACC96BE24D391C600BDFE76 /* Main.storyboard in Resources */,
+				4AF5F33524EBA35300C16523 /* Metropolis-RegularItalic.otf in Resources */,
+				4ACC96F424D3CBB300BDFE76 /* Statistics.storyboard in Resources */,
+				4AF5F33A24EBA35300C16523 /* Metropolis-Black.otf in Resources */,
+				4AF5F33424EBA35300C16523 /* Metropolis-Thin.otf in Resources */,
+				4AF5F34024EBA35300C16523 /* Metropolis-MediumItalic.otf in Resources */,
+				4AF5F34624EBBDE800C16523 /* OnBoarding.storyboard in Resources */,
+				4ACC96ED24D3C90800BDFE76 /* Transactions.storyboard in Resources */,
+				4AF5F33624EBA35300C16523 /* Metropolis-ExtraBold.otf in Resources */,
+				4AF5F33724EBA35300C16523 /* Metropolis-SemiBoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACC96D024D393B000BDFE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACC96D124D393B000BDFE76 /* LaunchScreen.storyboard in Resources */,
+				4ACC96EB24D39CD300BDFE76 /* Default-568h@2x.png in Resources */,
+				4ACC96D224D393B000BDFE76 /* Assets.xcassets in Resources */,
+				4ACC96D324D393B000BDFE76 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +470,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ACC96BB24D391C600BDFE76 /* ViewController.swift in Sources */,
+				4AF5F31C24EB91FF00C16523 /* Shadow.swift in Sources */,
+				4AF5F34824EBC17D00C16523 /* OnBoardingContainerViewController.swift in Sources */,
+				4AF5F34A24EBC29300C16523 /* OnBoardingViewController.swift in Sources */,
+				4AF5F34C24EBC7EC00C16523 /* OnBoardingStepsViewController.swift in Sources */,
 				4ACC96B724D391C600BDFE76 /* AppDelegate.swift in Sources */,
 				4ACC96B924D391C600BDFE76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACC96CB24D393B000BDFE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACC96CC24D393B000BDFE76 /* ViewController.swift in Sources */,
+				4ACC96CD24D393B000BDFE76 /* AppDelegate.swift in Sources */,
+				4ACC96CE24D393B000BDFE76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +506,14 @@
 				4ACC96C224D391C800BDFE76 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4ACC96F524D3CBE700BDFE76 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACC96F624D3CBE800BDFE76 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,7 +638,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FYVV972G7;
 				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +648,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexvc.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +657,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FYVV972G7;
 				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +667,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexvc.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4ACC96D524D393B000BDFE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexvc.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4ACC96D624D393B000BDFE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Production.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexvc.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -331,6 +726,15 @@
 			buildConfigurations = (
 				4ACC96C824D391C800BDFE76 /* Debug */,
 				4ACC96C924D391C800BDFE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACC96D424D393B000BDFE76 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACC96D524D393B000BDFE76 /* Debug */,
+				4ACC96D624D393B000BDFE76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
