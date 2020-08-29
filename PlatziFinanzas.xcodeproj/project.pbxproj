@@ -29,6 +29,7 @@
 		4ACC96F724D3CBE800BDFE76 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96F524D3CBE700BDFE76 /* Profile.storyboard */; };
 		4ACC96F924D3CC5D00BDFE76 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */; };
 		4ACC96FB24D3CD6700BDFE76 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */; };
+		4ADCBC3824FA68FC002C1392 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCBC3724FA68FC002C1392 /* TransactionsViewController.swift */; };
 		4AF5F31C24EB91FF00C16523 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5F31B24EB91FF00C16523 /* Shadow.swift */; };
 		4AF5F33224EBA35300C16523 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F31F24EBA35300C16523 /* Metropolis-Bold.otf */; };
 		4AF5F33324EBA35300C16523 /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4AF5F32024EBA35300C16523 /* SIL Open Font License.txt */; };
@@ -77,6 +78,7 @@
 		4ACC96F624D3CBE800BDFE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 		4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		4ADCBC3724FA68FC002C1392 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		4AF5F31B24EB91FF00C16523 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		4AF5F31F24EBA35300C16523 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
 		4AF5F32024EBA35300C16523 /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */,
+				4ADCBC3724FA68FC002C1392 /* TransactionsViewController.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -475,6 +478,7 @@
 				4AF5F34A24EBC29300C16523 /* OnBoardingViewController.swift in Sources */,
 				4AF5F34C24EBC7EC00C16523 /* OnBoardingStepsViewController.swift in Sources */,
 				4ACC96B724D391C600BDFE76 /* AppDelegate.swift in Sources */,
+				4ADCBC3824FA68FC002C1392 /* TransactionsViewController.swift in Sources */,
 				4ACC96B924D391C600BDFE76 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
