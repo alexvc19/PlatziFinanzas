@@ -21,6 +21,8 @@ class TransactionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        let cell = UINib (nibName: "TransactionsCell", bundle: Bundle.main)
+        tableView.register(cell, forCellReuseIdentifier: "cell")
     }
     override func loadView() {
         super.loadView()

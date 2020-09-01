@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,12 +16,97 @@
                     <view key="view" contentMode="scaleToFill" id="Tjm-he-Rk8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e0E-Y9-zQt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="rdy-Xr-kJJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="69"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dQW-qh-Pxm">
+                                            <rect key="frame" x="57" y="9.5" width="105" height="50"/>
+                                            <color key="backgroundColor" name="GreenColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="105" id="h2a-30-leL"/>
+                                                <constraint firstAttribute="height" constant="50" id="kS0-o3-9DK"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="22"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YpW-bw-KkG">
+                                            <rect key="frame" x="57" y="9.5" width="300" height="50"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7W-Qq-pkM">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                                                    <state key="normal" title="Incoming">
+                                                        <color key="titleColor" name="TextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="iix-M3-MBB" eventType="touchUpInside" id="Cr0-2A-lvk"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-03-o1w">
+                                                    <rect key="frame" x="100" y="0.0" width="100" height="50"/>
+                                                    <state key="normal" title="ALL">
+                                                        <color key="titleColor" name="TextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="iix-M3-MBB" eventType="touchUpInside" id="Dkg-bA-byO"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qF7-8G-7x8">
+                                                    <rect key="frame" x="200" y="0.0" width="100" height="50"/>
+                                                    <state key="normal" title="EXPENSES">
+                                                        <color key="titleColor" name="TextColor"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="animateHeaderWithSender:" destination="iix-M3-MBB" eventType="touchUpInside" id="Ont-8q-vxg"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="E7w-Nk-JzM"/>
+                                                <constraint firstAttribute="width" constant="300" id="aEe-Rt-WMc"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="dQW-qh-Pxm" firstAttribute="leading" secondItem="YpW-bw-KkG" secondAttribute="leading" id="CqY-5j-qLf"/>
+                                        <constraint firstItem="YpW-bw-KkG" firstAttribute="centerX" secondItem="rdy-Xr-kJJ" secondAttribute="centerX" id="Fds-rq-jKw"/>
+                                        <constraint firstItem="YpW-bw-KkG" firstAttribute="centerY" secondItem="rdy-Xr-kJJ" secondAttribute="centerY" id="sl5-z4-aZK"/>
+                                        <constraint firstItem="dQW-qh-Pxm" firstAttribute="centerY" secondItem="rdy-Xr-kJJ" secondAttribute="centerY" id="vpK-bE-Zy2"/>
+                                    </constraints>
+                                </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="iix-M3-MBB" id="vh9-v4-rhW"/>
+                                    <outlet property="delegate" destination="iix-M3-MBB" id="cSy-tW-YFN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="e0E-Y9-zQt" firstAttribute="top" secondItem="Xsw-vj-SAH" secondAttribute="top" id="Cjd-6N-fMY"/>
+                            <constraint firstItem="Xsw-vj-SAH" firstAttribute="trailing" secondItem="e0E-Y9-zQt" secondAttribute="trailing" id="GH7-UU-VdL"/>
+                            <constraint firstItem="Xsw-vj-SAH" firstAttribute="bottom" secondItem="e0E-Y9-zQt" secondAttribute="bottom" id="XjV-w0-i0D"/>
+                            <constraint firstItem="e0E-Y9-zQt" firstAttribute="leading" secondItem="Xsw-vj-SAH" secondAttribute="leading" id="xa9-eG-7xb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Xsw-vj-SAH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="notification" id="3ug-Sz-JiE"/>
                     <navigationItem key="navigationItem" title="Budget" id="sed-Qc-Y8a"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="animationLayout" destination="CqY-5j-qLf" id="YOG-Nu-B3I"/>
+                        <outlet property="tableView" destination="e0E-Y9-zQt" id="gMi-YU-gyK"/>
+                        <outletCollection property="animationButtons" destination="O7W-Qq-pkM" collectionClass="NSMutableArray" id="RLy-cn-FEf"/>
+                        <outletCollection property="animationButtons" destination="xGQ-03-o1w" collectionClass="NSMutableArray" id="IyB-qp-oVF"/>
+                        <outletCollection property="animationButtons" destination="qF7-8G-7x8" collectionClass="NSMutableArray" id="jiF-6s-EFz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJ8-Uy-3LD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,5 +134,11 @@
     </scenes>
     <resources>
         <image name="notification" width="20" height="26"/>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.14117647058823529" green="0.16862745098039217" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

@@ -1,40 +1,38 @@
 //
-//  tabBarViewController.swift
+//  TabBarViewController.swift
 //  PlatziFinanzas
 //
-//  Created by Alejandro Velasco on 30/08/20.
+//  Created by Alejandro Velasco on 31/08/20.
 //  Copyright © 2020 Alejandro Velasco. All rights reserved.
 //
 
 import UIKit
 
-class tabBarViewController: UITabBarController {
+class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
+        customButton()
     }
-    override func loadView() {
-        super.loadView()
-        if #available(iOS 13.0, *) {
-            let navBarAppearance = UINavigationBarAppearance()
-            navBarAppearance.configureWithOpaqueBackground()
-            navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-            navBarAppearance.backgroundColor = UIColor.init(named: "GreenColor")
-            navigationController?.navigationBar.standardAppearance = navBarAppearance
-            navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
-        }
+    func customButton(){
+        let menuButton = UIButton(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
+        
+        var menuButtonFrame = menuButton.frame
+        menuButtonFrame.origin.y = tabBar.frame.origin.y - 32
+        menuButtonFrame.origin.x = view.bounds.width / 2 - menuButtonFrame.size.width / 2
+        menuButton.frame = menuButtonFrame
+        menuButton.setImage(UIImage(named: "PlusButton"), for: .normal)
+        
+        menuButton.backgroundColor = UIColor(named: "GreenColor")
+        menuButton.layer.cornerRadius = 8
+        view.addSubview(menuButton)
+        
+        menuButton.addTarget(self, action: #selector(menuButtonAction(sender:)), for: .touchUpInside)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @objc private func menuButtonAction(sender: UIButton){
+        selectedIndex = 2
     }
-    */
-
 }

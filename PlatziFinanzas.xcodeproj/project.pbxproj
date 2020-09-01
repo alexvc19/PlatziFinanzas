@@ -10,6 +10,8 @@
 		4A02BCB024FDDC6900F42B68 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCAF24FDDC6900F42B68 /* BudgetViewController.swift */; };
 		4A02BCB224FDDCD100F42B68 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCB124FDDCD100F42B68 /* StatisticsViewController.swift */; };
 		4A02BCB424FDDCF000F42B68 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCB324FDDCF000F42B68 /* ProfileViewController.swift */; };
+		4A02BCB624FDE06100F42B68 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCB524FDE06100F42B68 /* TabBarViewController.swift */; };
+		4A02BCB924FDE48F00F42B68 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A02BCB824FDE48F00F42B68 /* TransactionsCell.xib */; };
 		4A36783324FBB92000F929EA /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A36783224FBB92000F929EA /* EmptyState.xib */; };
 		4A83CA5924D4C7F70077ABCD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83CA5824D4C7F70077ABCD /* Colors.xcassets */; };
 		4A92900B24FBDE3B000ACA22 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92900A24FBDE3B000ACA22 /* SignInViewController.swift */; };
@@ -66,6 +68,8 @@
 		4A02BCAF24FDDC6900F42B68 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		4A02BCB124FDDCD100F42B68 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		4A02BCB324FDDCF000F42B68 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4A02BCB524FDE06100F42B68 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4A02BCB824FDE48F00F42B68 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
 		4A36783224FBB92000F929EA /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		4A83CA5824D4C7F70077ABCD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		4A92900A24FBDE3B000ACA22 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -269,6 +273,7 @@
 				4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */,
 				4ADCBC3724FA68FC002C1392 /* TransactionsViewController.swift */,
 				4A36783224FBB92000F929EA /* EmptyState.xib */,
+				4A02BCB824FDE48F00F42B68 /* TransactionsCell.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				4ACC96BA24D391C600BDFE76 /* ViewController.swift */,
 				4ACC96BC24D391C600BDFE76 /* Main.storyboard */,
 				4ACC96E824D3998300BDFE76 /* View.xib */,
+				4A02BCB524FDE06100F42B68 /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -455,6 +461,7 @@
 				4ACC96C024D391C800BDFE76 /* Assets.xcassets in Resources */,
 				4A36783324FBB92000F929EA /* EmptyState.xib in Resources */,
 				4AF5F33E24EBA35300C16523 /* Metropolis-ThinItalic.otf in Resources */,
+				4A02BCB924FDE48F00F42B68 /* TransactionsCell.xib in Resources */,
 				4AF5F33D24EBA35300C16523 /* Metropolis-BlackItalic.otf in Resources */,
 				4AF5F34224EBA35300C16523 /* Metropolis-SemiBold.otf in Resources */,
 				4ACC96F024D3CA2000BDFE76 /* Add.storyboard in Resources */,
@@ -495,6 +502,7 @@
 				4ACC96BB24D391C600BDFE76 /* ViewController.swift in Sources */,
 				4AF5F31C24EB91FF00C16523 /* Shadow.swift in Sources */,
 				4A02BCB224FDDCD100F42B68 /* StatisticsViewController.swift in Sources */,
+				4A02BCB624FDE06100F42B68 /* TabBarViewController.swift in Sources */,
 				4AF5F34824EBC17D00C16523 /* OnBoardingContainerViewController.swift in Sources */,
 				4AF5F34A24EBC29300C16523 /* OnBoardingViewController.swift in Sources */,
 				4A02BCB024FDDC6900F42B68 /* BudgetViewController.swift in Sources */,
