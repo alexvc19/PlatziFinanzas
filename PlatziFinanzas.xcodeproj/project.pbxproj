@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A02BCB024FDDC6900F42B68 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCAF24FDDC6900F42B68 /* BudgetViewController.swift */; };
+		4A02BCB224FDDCD100F42B68 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCB124FDDCD100F42B68 /* StatisticsViewController.swift */; };
+		4A02BCB424FDDCF000F42B68 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A02BCB324FDDCF000F42B68 /* ProfileViewController.swift */; };
+		4A36783324FBB92000F929EA /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A36783224FBB92000F929EA /* EmptyState.xib */; };
 		4A83CA5924D4C7F70077ABCD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A83CA5824D4C7F70077ABCD /* Colors.xcassets */; };
+		4A92900B24FBDE3B000ACA22 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92900A24FBDE3B000ACA22 /* SignInViewController.swift */; };
+		4A92900D24FBDFFB000ACA22 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A92900C24FBDFFB000ACA22 /* AddViewController.swift */; };
 		4ACC96B724D391C600BDFE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B624D391C600BDFE76 /* AppDelegate.swift */; };
 		4ACC96B924D391C600BDFE76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */; };
 		4ACC96BB24D391C600BDFE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACC96BA24D391C600BDFE76 /* ViewController.swift */; };
@@ -57,7 +63,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A02BCAF24FDDC6900F42B68 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		4A02BCB124FDDCD100F42B68 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		4A02BCB324FDDCF000F42B68 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4A36783224FBB92000F929EA /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		4A83CA5824D4C7F70077ABCD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4A92900A24FBDE3B000ACA22 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4A92900C24FBDFFB000ACA22 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4ACC96B324D391C600BDFE76 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ACC96B624D391C600BDFE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ACC96B824D391C600BDFE76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96FA24D3CD6700BDFE76 /* SignIn.storyboard */,
+				4A92900A24FBDE3B000ACA22 /* SignInViewController.swift */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -255,6 +268,7 @@
 			children = (
 				4ACC96EC24D3C90800BDFE76 /* Transactions.storyboard */,
 				4ADCBC3724FA68FC002C1392 /* TransactionsViewController.swift */,
+				4A36783224FBB92000F929EA /* EmptyState.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -263,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96F524D3CBE700BDFE76 /* Profile.storyboard */,
+				4A02BCB324FDDCF000F42B68 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -282,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96EF24D3CA2000BDFE76 /* Add.storyboard */,
+				4A92900C24FBDFFB000ACA22 /* AddViewController.swift */,
 			);
 			path = Add;
 			sourceTree = "<group>";
@@ -290,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96F824D3CC5D00BDFE76 /* Budget.storyboard */,
+				4A02BCAF24FDDC6900F42B68 /* BudgetViewController.swift */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
@@ -298,6 +315,7 @@
 			isa = PBXGroup;
 			children = (
 				4ACC96F324D3CBB300BDFE76 /* Statistics.storyboard */,
+				4A02BCB124FDDCD100F42B68 /* StatisticsViewController.swift */,
 			);
 			path = Statistics;
 			sourceTree = "<group>";
@@ -435,6 +453,7 @@
 				4ACC96F724D3CBE800BDFE76 /* Profile.storyboard in Resources */,
 				4AF5F33324EBA35300C16523 /* SIL Open Font License.txt in Resources */,
 				4ACC96C024D391C800BDFE76 /* Assets.xcassets in Resources */,
+				4A36783324FBB92000F929EA /* EmptyState.xib in Resources */,
 				4AF5F33E24EBA35300C16523 /* Metropolis-ThinItalic.otf in Resources */,
 				4AF5F33D24EBA35300C16523 /* Metropolis-BlackItalic.otf in Resources */,
 				4AF5F34224EBA35300C16523 /* Metropolis-SemiBold.otf in Resources */,
@@ -472,12 +491,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A92900D24FBDFFB000ACA22 /* AddViewController.swift in Sources */,
 				4ACC96BB24D391C600BDFE76 /* ViewController.swift in Sources */,
 				4AF5F31C24EB91FF00C16523 /* Shadow.swift in Sources */,
+				4A02BCB224FDDCD100F42B68 /* StatisticsViewController.swift in Sources */,
 				4AF5F34824EBC17D00C16523 /* OnBoardingContainerViewController.swift in Sources */,
 				4AF5F34A24EBC29300C16523 /* OnBoardingViewController.swift in Sources */,
+				4A02BCB024FDDC6900F42B68 /* BudgetViewController.swift in Sources */,
 				4AF5F34C24EBC7EC00C16523 /* OnBoardingStepsViewController.swift in Sources */,
+				4A92900B24FBDE3B000ACA22 /* SignInViewController.swift in Sources */,
 				4ACC96B724D391C600BDFE76 /* AppDelegate.swift in Sources */,
+				4A02BCB424FDDCF000F42B68 /* ProfileViewController.swift in Sources */,
 				4ADCBC3824FA68FC002C1392 /* TransactionsViewController.swift in Sources */,
 				4ACC96B924D391C600BDFE76 /* SceneDelegate.swift in Sources */,
 			);

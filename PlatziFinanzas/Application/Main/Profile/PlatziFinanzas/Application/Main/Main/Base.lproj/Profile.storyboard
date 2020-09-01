@@ -11,14 +11,16 @@
         <!--Profile-->
         <scene sceneID="GML-B4-14r">
             <objects>
-                <viewController id="0PC-Bf-xUz" sceneMemberID="viewController">
+                <viewController id="0PC-Bf-xUz" customClass="ProfileViewController" customModule="PlatziFinanzas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iU2-71-naK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="rli-JF-1Ws"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="account" id="O5e-Uv-pdQ"/>
                     <navigationItem key="navigationItem" title="Profile" id="FoK-KI-cWJ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yix-CY-iZs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,4 +46,7 @@
             <point key="canvasLocation" x="1044.9275362318842" y="-690.40178571428567"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="account" width="20" height="20"/>
+    </resources>
 </document>

@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,14 +12,16 @@
         <!--Add-->
         <scene sceneID="g06-4E-hNp">
             <objects>
-                <viewController id="AXb-h4-qGE" sceneMemberID="viewController">
+                <viewController id="AXb-h4-qGE" customClass="AddViewController" customModule="PlatziFinanzas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdo-Ad-Rnj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2qL-2B-cSj"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="stats" id="SVR-04-ncY"/>
                     <navigationItem key="navigationItem" title="Add" id="WFS-Fa-bz5"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBa-OE-eQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,9 +33,10 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zIJ-76-LgJ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="nBA-RB-QZ4"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="sHB-9K-fxk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="sHB-9K-fxk">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="GreenColor"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -44,4 +48,10 @@
             <point key="canvasLocation" x="128.98550724637681" y="841.74107142857144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stats" width="17" height="18"/>
+        <namedColor name="GreenColor">
+            <color red="0.62352941176470589" green="0.74117647058823533" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

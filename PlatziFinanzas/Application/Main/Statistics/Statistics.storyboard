@@ -11,14 +11,16 @@
         <!--Statistics-->
         <scene sceneID="mnv-Me-Pq2">
             <objects>
-                <viewController id="ovc-iY-7ME" sceneMemberID="viewController">
+                <viewController id="ovc-iY-7ME" customClass="StatisticsViewController" customModule="PlatziFinanzas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FNP-CM-rMH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HVq-X8-cb8"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="stats" id="ElW-RS-RBo" customClass="St"/>
                     <navigationItem key="navigationItem" title="Statistics" id="Oxr-mh-6hG"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6dG-eW-cLj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,4 +46,7 @@
             <point key="canvasLocation" x="1044.9275362318842" y="-1418.3035714285713"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stats" width="17" height="18"/>
+    </resources>
 </document>

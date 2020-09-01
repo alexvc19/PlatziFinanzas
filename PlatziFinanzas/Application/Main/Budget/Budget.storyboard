@@ -11,14 +11,16 @@
         <!--Budget-->
         <scene sceneID="zpz-oH-6My">
             <objects>
-                <viewController id="iix-M3-MBB" sceneMemberID="viewController">
+                <viewController id="iix-M3-MBB" customClass="BudgetViewController" customModule="PlatziFinanzas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tjm-he-Rk8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Xsw-vj-SAH"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="notification" id="3ug-Sz-JiE"/>
                     <navigationItem key="navigationItem" title="Budget" id="sed-Qc-Y8a"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XJ8-Uy-3LD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,4 +46,7 @@
             <point key="canvasLocation" x="1955.072463768116" y="841.74107142857144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="notification" width="20" height="26"/>
+    </resources>
 </document>
